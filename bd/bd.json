@@ -1,29 +1,252 @@
-
 {
-    "clientes": [
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan Pérez",
+      "documento": "123456789",
+      "prestamos": [
         {
-            "id": 1,
-            "nombre": "Juan Pérez",
-            "documento": "123456789",
-            "prestamos": [
+          "id": 101,
+          "monto": 10000,
+          "tasaInteres": 5,
+          "plazoMeses": 12,
+          "tipoAmortizacion": "Francés",
+          "tablaAmortizacion": [
             {
-            "id": 101,
-            "monto": 10000,
-            "tasaInteres": 5,
-            "plazoMeses": 12,
-            "tipoAmortizacion": "Francés",
-            "tablaAmortizacion": [
-            {
-            "cuota": 1,
-            "saldoInicial": 10000,
-            "cuotaMensual": 900,
-            "intereses": 50,
-            "amortizacionCapital": 850,
-            "saldoRestante": 9150
+              "cuota": 1,
+              "saldoInicial": 10000,
+              "cuotaMensual": 900,
+              "intereses": 50,
+              "amortizacionCapital": 850,
+              "saldoRestante": 9150
             }
-            ]
-            }
-            ]
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "a620",
+      "nombre": "kevin",
+      "documento": "kevin",
+      "prestamos": [
+        {
+          "id": 1739366866769,
+          "monto": 10000,
+          "tasaInteres": 5,
+          "plazoMeses": 12,
+          "tipoAmortizacion": "Francés",
+          "tablaAmortizacion": [
+            {
+              "mes": 1,
+              "saldoInicial": 10000,
+              "cuota": 856.0748178846745,
+              "intereses": 41.666666666666664,
+              "amortizacion": 814.4081512180079,
+              "saldoRestante": 9185.591848781993
+            },
+            {
+              "mes": 2,
+              "saldoInicial": 9143.925182115325,
+              "cuota": 856.0748178846745,
+              "intereses": 38.27329936992497,
+              "amortizacion": 817.8015185147495,
+              "saldoRestante": 8367.790330267244
+            },
+            {
+              "mes": 3,
+              "saldoInicial": 8287.850364230651,
+              "cuota": 856.0748178846745,
+              "intereses": 34.86579304278018,
+              "amortizacion": 821.2090248418943,
+              "saldoRestante": 7546.5813054253495
+            },
+            {
+              "mes": 4,
+              "saldoInicial": 7431.775546345976,
+              "cuota": 856.0748178846745,
+              "intereses": 31.44408877260562,
+              "amortizacion": 824.6307291120689,
+              "saldoRestante": 6721.95057631328
+            },
+            {
+              "mes": 5,
+              "saldoInicial": 6575.700728461302,
+              "cuota": 856.0748178846745,
+              "intereses": 28.008127401305334,
+              "amortizacion": 828.0666904833691,
+              "saldoRestante": 5893.883885829911
+            },
+            {
+              "mes": 6,
+              "saldoInicial": 5719.625910576628,
+              "cuota": 856.0748178846745,
+              "intereses": 24.557849524291296,
+              "amortizacion": 831.5169683603832,
+              "saldoRestante": 5062.366917469528
+            },
+            {
+              "mes": 7,
+              "saldoInicial": 4863.551092691952,
+              "cuota": 856.0748178846745,
+              "intereses": 21.093195489456367,
+              "amortizacion": 834.9816223952182,
+              "saldoRestante": 4227.385295074309
+            },
+            {
+              "mes": 8,
+              "saldoInicial": 4007.476274807278,
+              "cuota": 856.0748178846745,
+              "intereses": 17.614105396142957,
+              "amortizacion": 838.4607124885316,
+              "saldoRestante": 3388.924582585778
+            },
+            {
+              "mes": 9,
+              "saldoInicial": 3151.4014569226038,
+              "cuota": 856.0748178846745,
+              "intereses": 14.120519094107408,
+              "amortizacion": 841.9542987905671,
+              "saldoRestante": 2546.970283795211
+            },
+            {
+              "mes": 10,
+              "saldoInicial": 2295.3266390379295,
+              "cuota": 856.0748178846745,
+              "intereses": 10.612376182480045,
+              "amortizacion": 845.4624417021945,
+              "saldoRestante": 1701.5078420930163
+            },
+            {
+              "mes": 11,
+              "saldoInicial": 1439.2518211532552,
+              "cuota": 856.0748178846745,
+              "intereses": 7.089616008720901,
+              "amortizacion": 848.9852018759536,
+              "saldoRestante": 852.5226402170626
+            },
+            {
+              "mes": 12,
+              "saldoInicial": 583.1770032685799,
+              "cuota": 856.0748178846745,
+              "intereses": 3.5521776675710943,
+              "amortizacion": 852.5226402171035,
+              "saldoRestante": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "007b",
+      "nombre": "kevin",
+      "documento": "1053328204",
+      "prestamos": [
+        {
+          "id": 1739366901528,
+          "monto": 10000,
+          "tasaInteres": 5,
+          "plazoMeses": 12,
+          "tipoAmortizacion": "Francés",
+          "tablaAmortizacion": [
+            {
+              "mes": 1,
+              "saldoInicial": 10000,
+              "cuota": 856.0748178846745,
+              "intereses": 41.666666666666664,
+              "amortizacion": 814.4081512180079,
+              "saldoRestante": 9185.591848781993
+            },
+            {
+              "mes": 2,
+              "saldoInicial": 9143.925182115325,
+              "cuota": 856.0748178846745,
+              "intereses": 38.27329936992497,
+              "amortizacion": 817.8015185147495,
+              "saldoRestante": 8367.790330267244
+            },
+            {
+              "mes": 3,
+              "saldoInicial": 8287.850364230651,
+              "cuota": 856.0748178846745,
+              "intereses": 34.86579304278018,
+              "amortizacion": 821.2090248418943,
+              "saldoRestante": 7546.5813054253495
+            },
+            {
+              "mes": 4,
+              "saldoInicial": 7431.775546345976,
+              "cuota": 856.0748178846745,
+              "intereses": 31.44408877260562,
+              "amortizacion": 824.6307291120689,
+              "saldoRestante": 6721.95057631328
+            },
+            {
+              "mes": 5,
+              "saldoInicial": 6575.700728461302,
+              "cuota": 856.0748178846745,
+              "intereses": 28.008127401305334,
+              "amortizacion": 828.0666904833691,
+              "saldoRestante": 5893.883885829911
+            },
+            {
+              "mes": 6,
+              "saldoInicial": 5719.625910576628,
+              "cuota": 856.0748178846745,
+              "intereses": 24.557849524291296,
+              "amortizacion": 831.5169683603832,
+              "saldoRestante": 5062.366917469528
+            },
+            {
+              "mes": 7,
+              "saldoInicial": 4863.551092691952,
+              "cuota": 856.0748178846745,
+              "intereses": 21.093195489456367,
+              "amortizacion": 834.9816223952182,
+              "saldoRestante": 4227.385295074309
+            },
+            {
+              "mes": 8,
+              "saldoInicial": 4007.476274807278,
+              "cuota": 856.0748178846745,
+              "intereses": 17.614105396142957,
+              "amortizacion": 838.4607124885316,
+              "saldoRestante": 3388.924582585778
+            },
+            {
+              "mes": 9,
+              "saldoInicial": 3151.4014569226038,
+              "cuota": 856.0748178846745,
+              "intereses": 14.120519094107408,
+              "amortizacion": 841.9542987905671,
+              "saldoRestante": 2546.970283795211
+            },
+            {
+              "mes": 10,
+              "saldoInicial": 2295.3266390379295,
+              "cuota": 856.0748178846745,
+              "intereses": 10.612376182480045,
+              "amortizacion": 845.4624417021945,
+              "saldoRestante": 1701.5078420930163
+            },
+            {
+              "mes": 11,
+              "saldoInicial": 1439.2518211532552,
+              "cuota": 856.0748178846745,
+              "intereses": 7.089616008720901,
+              "amortizacion": 848.9852018759536,
+              "saldoRestante": 852.5226402170626
+            },
+            {
+              "mes": 12,
+              "saldoInicial": 583.1770032685799,
+              "cuota": 856.0748178846745,
+              "intereses": 3.5521776675710943,
+              "amortizacion": 852.5226402171035,
+              "saldoRestante": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
