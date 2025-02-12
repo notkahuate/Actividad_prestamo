@@ -1,0 +1,29 @@
+
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "Juan Pérez",
+            "documento": "123456789",
+            "prestamos": [
+            {
+            "id": 101,
+            "monto": 10000,
+            "tasaInteres": 5,
+            "plazoMeses": 12,
+            "tipoAmortizacion": "Francés",
+            "tablaAmortizacion": [
+            {
+            "cuota": 1,
+            "saldoInicial": 10000,
+            "cuotaMensual": 900,
+            "intereses": 50,
+            "amortizacionCapital": 850,
+            "saldoRestante": 9150
+            }
+            ]
+            }
+            ]
+        }
+    ]
+}
